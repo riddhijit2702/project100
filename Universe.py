@@ -9,10 +9,9 @@ class Universe(object) :
         self.planets[systems]=planets
     def getStar(self,systems):
         return self.planets[systems]
-    def getGPA(self):
-        return sum(self.planets.values())/len(self.grades)
+    
 
 
 milkdromeda = Universe(anything,saggiritus,everything,earth)
 
-print(milkdromeda.getGPA())
+print(milkdromeda)
